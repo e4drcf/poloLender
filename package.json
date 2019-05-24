@@ -1,0 +1,70 @@
+{
+  "name": "poloLenderPro",
+  "version": "1.3.4",
+  "description": "smart Poloniex lending bot - an automated engine for lending funds on Poloniex exchange",
+  "author": "e4drcf <e4drcf@gmail.com>",
+  "license": "MIT",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/e4drcf/pololender.git"
+  },
+  "keywords": [
+    "poloniex",
+    "bitcoin",
+    "btc",
+    "etherum",
+    "eth",
+    "lend",
+    "lending",
+    "bot",
+    "automatic",
+    "advisor",
+    "pololender",
+    "xmr",
+    "monero"
+  ],
+  "bugs": {
+    "url": "https://github.com/e4drcf/pololender/issues"
+  },
+  "engines": {
+    "node": "^8.2.1",
+    "npm": "^5.3.0"
+  },
+  "scripts": {
+    "start": "node -r babel-register app.js"
+  },
+  "dependencies": {
+    "async": "^2.5.0",
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.6.0",
+    "big.js": "^3.2.0",
+    "bitfinex-api-node": "^1.2.1",
+    "body-parser": "^1.17.2",
+    "cookie-parser": "^1.4.3",
+    "debug": "^2.6.9",
+    "express": "^4.15.3",
+    "financejs": "^4.1.0",
+    "less-middleware": "^2.2.0",
+    "lodash": "^4.17.4",
+    "lowdb": "^0.16.2",
+    "moment": "^2.18.1",
+    "mongoose": "^4.11.3",
+    "morgan": "^1.8.2",
+    "node-env-file": "^0.1.8",
+    "nonce": "^1.0.4",
+    "poloniex-api-node": "^1.3.1",
+    "pug": "^2.0.0-rc.2",
+    "request": "^2.81.0",
+    "semver": "^5.3.0",
+    "sendgrid": "^5.2.0",
+    "serve-favicon": "^2.4.3",
+    "socket.io": "^2.0.3",
+    "socket.io-client": "^2.0.3",
+    "uniqid": "^4.1.1",
+    "uuid": "^3.1.0",
+    "winston": "^2.3.1",
+    "winston-telegram": "^1.2.1"
+  },
+  "devDependencies": {}
+}
